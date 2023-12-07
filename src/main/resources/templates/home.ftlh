@@ -1,28 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container mt-5">
-        <form method="post" action="home">
-            <div class="mb-3">
-                <input type="number" class="form-control" name="anInteger" placeholder="An Integer">
-            </div>
-            <div class="mb-3">
-                <input type="number" class="form-control" name="numerator" placeholder="Numerator">
-            </div>
-            <div class="mb-3">
-                <input type="number" class="form-control" name="denominator" placeholder="Denominator">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </div>
-</body>
-<script src="/webjars/bootstrap/5.3.2/js/bootstrap.min.js"></script>
-</html>
+<#include "header.ftlh"/>
+<div class="container">
+    <h3> Задание 1</h3>
+   <p>Создайте RESTful сервис, который инкапсулирует
+       операции по работе с дробями. У дроби есть числитель
+       и знаменатель. Вам необходимо реализовать проверку
+       является ли дробь правильной.</p>
+    <h3>Задание 2</h3>
+    <p>Добавьте к первому заданию операцию по сокращению дроби.</p>
+    <h3>Задание 3</h3>
+    <p>Добавьте ко второму заданию операцию по сложению
+        <h3>Задание 4</h3>
+    <p>Добавьте к третьему заданию операцию по вычитанию двух дробей.</p>
+    <h3>Задание 5</h3>
+    <p>Добавьте к четвертому заданию операцию по умножению двух дробей.</p>
+    <h3>Задание 6</h3>
+    <p>Добавьте к пятому заданию операцию по делению
+        двух дробей.</p>
+
+</div>
+<#include "footer.ftlh"/>

@@ -8,7 +8,5 @@ public class Fraction {
     private Integer numerator;
     private Integer denominator;
 
-    public Boolean isCorrect() {
-        return anInteger * denominator + numerator <= denominator;
-    }
+
 }
